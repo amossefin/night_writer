@@ -24,3 +24,11 @@ writer.close
 #   end
 #
 # end
+
+class Mapping_Characters
+  def placement
+    arr = t_b.map do |dot|
+      dot.split(" ")
+      arr[0..2] 
+  end
+end
